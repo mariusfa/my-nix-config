@@ -13,9 +13,7 @@ This repository contains my personal Nix configuration for setting up a new Ubun
 1. Clone the repository and run the `setup-ubuntu.sh` script:
 
 ```bash
-git clone https://github.com/mariusfa/my-nix-config.git
-cd my-nix-config
-./setup-ubuntu.sh
+curl -L https://raw.githubusercontent.com/mariusfa/my-nix-config/main/setup-ubuntu.sh | sh
 ```
 
 2. Close and reopen your terminal, or run `source ~/.bashrc` (or `source ~/.zshrc` for Zsh) to apply the changes made by the script.
