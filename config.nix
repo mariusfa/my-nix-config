@@ -12,6 +12,7 @@ with pkgs; {
       rustc
       cargo
       jetbrains.idea-community  # IntelliJ Community Edition
+      gradle
       # Add more packages here
     ];
   };
