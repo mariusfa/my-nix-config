@@ -9,6 +9,8 @@ with pkgs; {
       zsh
       jdk           # Java Development Kit for Java development
       maven         # Maven build tool
+      rustc
+      cargo
       jetbrains.idea-community  # IntelliJ Community Edition
       # Add more packages here
     ];
