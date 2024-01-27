@@ -7,7 +7,7 @@ with pkgs; {
       nodejs
       git
       zsh
-      jdk           # Java Development Kit for Java development
+      jdk21        # Java Development Kit for Java development
       maven         # Maven build tool
       rustc
       cargo
